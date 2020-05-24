@@ -19525,16 +19525,44 @@ body {
 }
 
 .has-dropdown ul {
-  left: 50%;
-  transform: translate(-50%, -1px);
-  width: 230px;
-  opacity: 0;
   transition: all 200ms ease-in;
+  width: 230px;
+  display: none;
 }
 
 .has-dropdown:hover > ul {
-  opacity: 1;
-  transform: translate(-50%, 1px);
+  display: block;
+}
+
+@media(min-width:768px) {
+  .has-dropdown ul {
+    left: 50%;
+    transform: translate(-50%, -1px);
+    opacity: 0;
+    display: block;
+  }
+
+  .has-dropdown:hover > ul {
+    opacity: 1;
+    transform: translate(-50%, 1px);
+  }
+}
+
+.menu {
+  top: 113px;
+}
+
+@media(max-width: 767px) {
+  .menu {
+    opacity: 0;
+    pointer-events: none;
+    transition: all 200ms ease-in;
+  }
+
+  .menu.active {
+    opacity: 1;
+    pointer-events: auto;
+  }
 }
 
 @media (min-width: 640px) {
