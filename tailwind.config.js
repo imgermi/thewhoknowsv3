@@ -19,6 +19,9 @@ module.exports = {
         wkGray: '#EDE8EF',
         primaryLight: '#F6E4EA',
       },
+    },
+    inset: {
+      '1': '1rem',
     }
   }
 }
