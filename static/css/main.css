@@ -8,6 +8,12 @@ body {
   font-family: 'Lora', serif;
 }
 
+@media(min-width: 1280px) {
+  .container {
+    max-width: 1100px;
+  }
+}
+
 .has-dropdown ul {
   transition: all 200ms ease-in;
   width: 230px;
@@ -55,4 +61,32 @@ body {
     width: 100%;
     height: 100%;
   }
+}
+
+/* Blog */
+.single h2 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  color: #211A39;
+  margin: 25px 0;
+}
+
+.single h3 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #211A39;
+  margin: 12px 0;
+}
+
+.single p {
+  font-size: 20px;
+  line-height: 28px;
+  margin: 12px 0;
+}
+.single img {
+  display: block;
+  width: 100%;
+  margin: 0
 }

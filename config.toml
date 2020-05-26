@@ -1,3 +1,9 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "WhoKnows Agency"
+
+[permalinks]
+  blog = "/blog/:filename:"
+
+[params]
+  dateFormat = "2006-01-02"  
