@@ -21,7 +21,27 @@ Lo primero que hicimos con este caso fue utilizar Sales Navigator para obtener u
 En este caso buscábamos contactar a Farmacias, Supermercados y pequeñas empresas similares con atención al público que tengan sucursales.
 
 1. Generamos listas de búsquedas de Sales Navigator siguiendo un script
-![alt text](/img/social-image.jpg "Title")
+![alt text](/img/blog/generar-b2b-accionable-lista-sales-navigator.png "Captura de pantalla de listado")
+
+El comando final se daba de esta manera =C2&D2&B2&G2&E2&A2&F2
+
+Necesitamos una búsqueda base de Linkedin que no se modifique, podría ser:
+
+**Linkedin.com/sales/search/people?**
+
+Y luego agregamos los parámetros:
+
+companysize= 
+1. “A” para autónomo 
+2. “B” para 1-10 empleados
+3. “C” para 11-50, etc
+
+&titleincluded=
+&keywords=
+&titleTimeScope=CURRENT
+
+Generamos un Phantom en Phantombuster de Sales Navigator Search Exports para obtener todos los perfiles posibles según esas variables.
+
 
 
 

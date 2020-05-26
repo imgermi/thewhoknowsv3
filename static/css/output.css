@@ -19676,7 +19676,7 @@ body {
   font-size: 36px;
   line-height: 42px;
   color: #211A39;
-  margin: 25px 0;
+  padding: 25px 0;
 }
 
 .single h3 {
@@ -19684,19 +19684,21 @@ body {
   font-size: 24px;
   line-height: 30px;
   color: #211A39;
-  margin: 12px 0;
+  padding: 12px 0;
 }
 
 .single p {
   font-size: 20px;
   line-height: 28px;
-  margin: 12px 0;
+  padding: 12px 0;
 }
 
 .single img {
   display: block;
   width: 100%;
-  margin: 0
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
 }
 
 @media (min-width: 640px) {
@@ -95633,4 +95635,4 @@ body {
   .xl\:delay-1000 {
     transition-delay: 1000ms;
   }
-}
+}  
