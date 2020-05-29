@@ -1,6 +1,6 @@
 ---
 title: "Cómo generar un setup B2B super accionable"
-date: 2020-05-25T20:22:20-03:00
+date: 2020-05-02T20:22:20-03:00
 draft: false
 ---
 
