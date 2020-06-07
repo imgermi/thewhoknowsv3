@@ -1,5 +1,6 @@
 ---
 title: "Cómo empezar a validar (sin hacer lo primero que se nos ocurra)"
+description: "Son muchas las herramientas que usar para validar y dar forma a las ideas: plataformas de ads, comunidades, chatbots, forms o incluso foros."
 date: 2020-05-18T20:22:20-03:00
 draft: false
 ---

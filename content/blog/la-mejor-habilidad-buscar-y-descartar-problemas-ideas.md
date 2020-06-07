@@ -1,5 +1,6 @@
 ---
 title: "La mejor habilidad: buscar y descartar problemas (o ideas según quien lo diga)."
+description: "Todo se reduce a una habilidad clave: descartar. Si somos maestros del descarte, encontraremos la mejor idea de negocio tarde o temprano, sea para resolver problemas nuestros o de muchos otros."
 date: 2020-05-26T20:22:20-03:00
 draft: false
 ---

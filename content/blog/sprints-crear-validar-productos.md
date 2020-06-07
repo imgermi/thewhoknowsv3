@@ -1,5 +1,6 @@
 ---
 title: "Sprint: Crear y Validar Productos"
+description: "Cómo crear una versión propia de Design Sprint, adaptada a las necesidades de nuestro equipo, para crear productos y generar soluciones."
 date: 2020-05-10T20:22:20-03:00
 draft: false
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Cómo generar un setup B2B super accionable"
+description: "Un análisis sobre un sistema de generación de leads y cotizaciones que desarrollamos junto a un cliente del rubro de limpieza de ductos y purificación de aire."
 date: 2020-05-02T20:22:20-03:00
 draft: false
 ---
