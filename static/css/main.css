@@ -131,3 +131,25 @@ body {
 .single a:hover {
   color: #494261;
 }
+
+.scroll-down-line {
+  width: 2px;
+  height: 300px;
+  margin-top: -150px;
+  background: #F43072;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vs:after {
+  content: url('/img/icons/vs.svg');
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-arrow-underline:after {
+  content: url('/img/icons/arrow-btn-underline.svg');
+  display: block;
+}

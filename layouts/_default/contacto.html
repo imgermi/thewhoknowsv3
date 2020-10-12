@@ -1,46 +1,25 @@
 {{ define "main" }}
 <section class="bg-black pt-24 md:pt-40 pb-24 font-serif">
   <div class="container mx-auto px-4">
-    <div class="max-w-3xl" data-aos="fade-up" data-aos-duration="950" data-aos-anchor-placement="top-bottom">
-      <a href="/" class="flex items-center mb-6">
-        <img class="mr-3" src="/img/icons/arrow-btn-left-white.svg" alt="Icono flecha hacia izquierda">
-        <span class="text-base font-sans font-bold text-white">Volver al inicio</span>
-      </a>
-      <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-5">Contacto</h1>
-      <h2 class="text-xl md:text-2xl text-wkGray leading-relaxed mb-12">Algunas personas lo llaman sinergias, a nosotros nos gusta decirle <span class="text-primary">relaciones</span>.</h2>
-    </div>
-  </div>
-</section>
-<section class="py-32 bg-white">
-  <div class="container mx-auto px-4">
-    <h3 class="text-3xl md:text-4xl font-bold text-black leading-tight col-span-4 mb-16" data-aos="fade-right" data-aos-duration="950" data-aos-anchor-placement="top-bottom">Esto son los que perfiles con los que trabajamos:</h3>
-    <div class="md:grid md:grid-cols-12 md:gap-8">
-      <article class="col-span-4 px-6 py-10 border border-secondary mb-4 md:mb-0" data-aos="fade-up" data-aos-duration="950" data-aos-anchor-placement="top-bottom">
-        <h5 class="text-xl font-bold text-black leading-tight mb-3">Founders</h5>
-        <p class="text-base text-secondary leading-relaxed">Que quieren construir o escalar su producto y necesitan un equipo para lograrlo.</p>
-      </article>
-      <article class="col-span-4 px-6 py-10 border border-secondary mb-4 md:mb-0" data-aos="fade-up" data-aos-duration="950" data-aos-anchor-placement="top-bottom">
-        <h5 class="text-xl font-bold text-black leading-tight mb-3">Angels o Business Developers</h5>
-        <p class="text-base text-secondary leading-relaxed">Que quieren un partner tecnológico para desarrollar las startups de su portfolio.</p>
-      </article>
-      <article class="col-span-4 px-6 py-10 border border-secondary" data-aos="fade-up" data-aos-duration="950" data-aos-anchor-placement="top-bottom">
-        <h5 class="text-xl font-bold text-black leading-tight mb-3">Incubadoras o VCs</h5>
-        <p class="text-base text-secondary leading-relaxed">Que necesitan un partner para alcanzar el time to market altamente demandado actualmente.</p>
-      </article>
-    </div>
-    <p class="text-center text-2xl text-secondary leading-tight max-w-lg m-auto pt-16" data-aos="fade-up" data-aos-duration="950" data-aos-anchor-placement="top-bottom">Si ninguna de estas te identifica, estamos igual de abiertos a charlar.</p>
-  </div>
-</section>
-<section class="bg-secondary py-24 font-serif">
-  <div class="container mx-auto px-4">
-    <article class="text-center">
-      <h6 class="text-xl md:text-2xl text-wkGray mb-4 max-w-lg mx-auto" data-aos="zoom-down" data-aos-duration="950">Nos gustaría hablar unos minutos para conocerte y entenderte mejor.</h6>
-      <h4 class="text-4xl md:text-5xl font-bold text-white mb-10 leading-tight max-w-4xl mx-auto" data-aos="zoom-in" data-aos-duration="950">Reserva una sesión estratégica <span class="text-primary underline">gratuita</span> según la opción que creas indicada para tu caso.</h4>
-      <div class="flex items-center justify-center" data-aos="fade-up" data-aos-duration="950">
-        <a href="https://www.meetingbird.com/l/germi/chat" target="_blank" class="font-sans bg-primary text-white text-sm font-bold text-center rounded-full shadow-md py-2 px-8 mx-2">No tengo un producto</a>
-        <a href="https://www.meetingbird.com/m/HkT2XdGkw" target="_blank" class="font-sans bg-primary text-white text-sm font-bold text-center rounded-full shadow-md py-2 px-8 mx-2">Tengo un producto</a>
+    <div class="md:grid md:grid-cols-12 md:gap-8 relative">
+      <div class="col-span-5">
+        <a href="/" class="flex items-center mb-6">
+          <img class="mr-3" src="/img/icons/arrow-btn-left-white.svg" alt="Icono flecha hacia izquierda">
+          <span class="text-base font-sans font-bold text-white">Volver al inicio</span>
+        </a>
+        <h1 class="text-4xl md:text-5xl font-bold text-white leading-tight mb-5">Contacto</h1>
+        <h2 class="text-xl md:text-2xl text-wkGray leading-relaxed mb-20">Agenda una reunión con nuestro Director de Marketing.</h2>
+        <article class="text-white bg-secondary py-6 px-10 text-center">
+          <img src="/img/alejandro-aboy.png" alt="Alejandro Aboy" class="block w-20 -mt-16 m-auto border-4 border-primary rounded-full">
+          <h4 class="text-2xl font-bold mb-1 pt-4">Alejandro Aboy</h4>
+          <a href="mailto:a@thewhoknows.com" target="_blank" class="block text-primary">a@thewhoknows.com</a>
+        </article>
       </div>
-    </article>
+      <div class="col-span-6 col-start-7">
+        <p class="text-center text-wkGray mb-6">Si no funciona el calendario, <a href="https://meetingbird.com/m/HkT2XdGkw" target="_blank" class="text-primary underline font-bold">ábrelo aquí</a></p>
+        <iframe src="https://meetingbird.com/m/HkT2XdGkw" style="width: 100%; border: none; min-height: 550px;"></iframe>
+      </div>
+    </div>
   </div>
 </section>
 {{ end }}

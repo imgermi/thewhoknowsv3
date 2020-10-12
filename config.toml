@@ -1,6 +1,6 @@
 baseURL = "https://thewhoknows.com"
 languageCode = "en-us"
-title = "WhoKnows Agency"
+title = "WhoKnows"
 
 [permalinks]
   blog = "/blog/:filename:"
